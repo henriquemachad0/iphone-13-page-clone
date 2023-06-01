@@ -71,3 +71,17 @@ header nav {
     padding: .4rem 1rem;
     color: #FFF;
 }
+
+/* Conteúdo */
+
+#ribbon {
+    text-align: center;
+    padding: 1rem;
+    background-color: #F5F5F7;
+    color: #1D1D1D;
+    font-size: .8rem;
+}
+
+#ribbon {
+    color: #0071e3;
+}
