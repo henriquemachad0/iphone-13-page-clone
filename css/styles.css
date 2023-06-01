@@ -123,3 +123,70 @@ header nav {
     padding: 0.8rem 1.4rem;
     align-self: center;
 }
+
+#main-content #product-image {
+    max-width: 1000px;
+    margin: 3rem auto;
+    opacity: 1;
+    transition: .5s;
+}
+
+#main-content #product-image.changing {
+    opacity: .5s;
+}
+
+#image-picker {
+    margin-bottom: 500px;
+}
+
+#image-picker ul {
+    display: flex;
+    justify-content: center;
+}
+
+#image-picker li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#image-picker li .color {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px;
+    border: 4px solid #FFF;
+    pointer-events: none;
+}
+
+#image-picker li .descripion {
+    font-size: 0.7rem;
+    color: #1D1D1D;
+    margin-top: 0.6rem;
+}
+
+#green .color {
+    background-color: #394C38;
+}
+
+#silver .color {
+    background-color: #F1F2ED;
+}
+
+#golden .color {
+    background-color: #FAE7CF;
+}
+
+#grafite .color {
+    background-color: #54524f;
+}
+
+#blue .color {
+    background-color: #a7c1d9;
+}
+
+.selected {
+    outline: 2px solid #43a1ff;
+}
