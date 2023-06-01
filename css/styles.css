@@ -85,3 +85,41 @@ header nav {
 #ribbon {
     color: #0071e3;
 }
+
+#main-content {
+    text-align: center;
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-content #title {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+#main-content #subtitle {
+    margin: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#main-content #description {
+    max-width: 600px;
+    margin: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+#main-content #price {
+    font-size: 1.3rem;
+    color: #86868b;
+    margin: 2rem;
+}
+
+#main-content .btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.4rem;
+    align-self: center;
+}
